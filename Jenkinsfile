@@ -36,5 +36,10 @@ pipeline{
                 sh 'touch file2'
             }
         }
+        stage('8-scruotcontrol'){
+            steps{
+                sh 'bash -x /var/lib/jenkins/workspace/team5-job-demo/script.sh'
+            }
+        }
 	}
 }
