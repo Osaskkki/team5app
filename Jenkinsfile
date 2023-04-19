@@ -26,7 +26,7 @@ pipeline{
                 sh 'cat /etc/os-release'
             }
         }
-        stage('6-anotherblockcheck'){
+        stage('6-anotherblkchk'){
             steps{
                 sh 'lsblk'
             }
