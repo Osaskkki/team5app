@@ -31,5 +31,10 @@ pipeline{
                 sh 'lsblk'
             }
         }
+        stage('7-make-file'){
+            steps{
+                sh 'touch file2'
+            }
+        }
 	}
 }
