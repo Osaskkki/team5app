@@ -36,7 +36,7 @@ pipeline{
                 sh 'touch file2'
             }
         }
-        stage('8-scruotcontrol'){
+        stage('8-scriptcontrol'){
             steps{
                 sh 'bash -x /var/lib/jenkins/workspace/team5-job-demo/script.sh'
             }
